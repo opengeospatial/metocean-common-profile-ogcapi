@@ -1,0 +1,8 @@
+[conformance_class]
+====
+[%metadata]
+identifier:: http://www.opengis.net/profile/metocean-common-ogcapi/1.0/conf/openapi
+target:: http://www.opengis.net/profile/metocean-common-ogcapi/1.0/req/openapi
+classification:: Target Type:Web API
+abstract-test:: /conf/openapi/definition
+====

@@ -1,0 +1,11 @@
+[[req_openapi_definition]]
+[requirement]
+====
+[%metadata]
+identifier:: /req/openapi/definition
+part:: An API definition SHALL be described using an OpenAPI document (version 3.1 or higher).
+part:: The OpenAPI document SHALL be encoded as one of the following media types: ``application/openapi+json``, ``application/openapi+yaml``, ``application/vnd.oai.openapi+json``, ``application/vnd.oai.openapi+yaml``.
+part:: The OpenAPI document SHALL be made available in the API Landing Page as a link object with a relation type of ``service-desc`` and one of the types given in B.
+part:: API documentation SHALL be made available in the API Landing Page as a link object with a relation type of ``service-doc`` and media type of ``text/html``.
+part:: The media type MAY contain a suffix indicating the OpenAPI version used, e.g. ``;version=3.1``.
+====

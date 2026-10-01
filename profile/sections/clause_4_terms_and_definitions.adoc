@@ -4,28 +4,30 @@ This document uses the terms defined in OGC Policy Directive 49, which is based 
 
 For the purposes of this document, the following additional terms and definitions apply.
 
-==== Collection
+=== Collection
 A geospatial resource that may be available as one or more sub-resource distributions that conform to one or more OGC API Standards.
 
-==== Dataset
+=== Dataset
 A collection of data, published or curated by a single agent, and available for access or download in one or more representations. (DCAT)
 
-==== Instance
+=== Instance
 
 Attribute, such as version, release, or run, of a given data collection.
 
-==== Model run
+=== Model run
 
-TODO
+A computed simulation used to forecast future weather.
 
-==== Forecast hour
+=== Forecast hour
 
-TODO
+A given timestep, at the granularity of one hour, within a model run.
 
-=== Abbreviated terms
+== Abbreviated terms
 
 API::
   Application Programming Interface
+FAIR::
+  Findable, Accessible, Interoperable, Reusable
 HTTP::
   Hypertext Transfer Protocol
 HTTPS::
@@ -34,10 +36,16 @@ IANA::
   Internet Assigned Numbers Authority
 JSON::
   JavaScript Object Notation
+NMHS::
+  National Meteorological and Hydrological Service
 NWP::
   Numerical Weather Prediction
 OGC::
   Open Geospatial Consortium
+URI::
+  Uniform Resource Identifier
+URL::
+  Uniform Resource Locator
 WIS::
   WMO Information System
 WMO::

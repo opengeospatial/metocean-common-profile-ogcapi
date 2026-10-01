@@ -1,0 +1,29 @@
+[[conf_openapi_definition]]
+[abstract_test]
+====
+[%metadata]
+identifier:: /conf/openapi/definition
+target:: /req/openapi/definition
+test-purpose:: Validate that a MetOcean Profile provides an API definition using an OpenAPI document
+test-method::
++
+--
+Construct a path for a landing page.
+
+1. Issue an HTTP GET request on that path.
+2. Check that the value of the returned HTTP status header is 200.
+3. In the links array in the landing page response, find the object with ``rel`` set to ``service-desc`` and type matching one of the following strings:
+
+   - ``application/openapi+json``
+   - ``application/openapi+yaml``
+   - ``application/vnd.oai.openapi+json``
+   - ``application/vnd.oai.openapi+yaml``
+
+4. Optionally, the string may be suffixed with a version number like ``;version=3.1``. In that case, check that the version is greater than or equal to ``3.1``.
+5. Issue an HTTP GET request using the value of href for that object.
+6. Check that the value of the returned HTTP status header is 200 and check that the response body is a valid OpenAPI document of version 3.1 or higher.
+7. In the links array in the landing page response, find the object with ``rel`` set to ``service-doc``.
+8. Issue an HTTP GET request using the value of the ``href`` for that object.
+9. Check that the value of the returned HTTP status header is 200 and that the HTTP response header Content-Type contains ``text/html``.
+--
+====

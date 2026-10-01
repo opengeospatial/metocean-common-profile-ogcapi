@@ -1,0 +1,9 @@
+[[conf_collections_identifier]]
+[conformance_test]
+====
+[%metadata]
+identifier:: /conf/collections/identifier
+target:: /req/collections/identifier
+test-purpose:: Validate that a MetOcean EDR Profile API provides a valid collection identifier
+test-method:: This requirement is not applicable to ATS testing.
+====

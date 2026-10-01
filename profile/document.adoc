@@ -41,16 +41,20 @@ include::sections/clause_5_conventions.adoc[]
 
 include::sections/clause_6_informative_text.adoc[]
 
-include::sections/clause_7_normative_text.adoc[]
+include::sections/clause_7_openapi.adoc[]
 
-include::sections/clause_8_media_types.adoc[]
+include::sections/clause_8_collections.adoc[]
+
+include::sections/clause_9_collection-parameters.adoc[]
+
+include::sections/clause_10_media_types.adoc[]
 
 ////
 add or remove annexes after "A" as necessary
 ////
 include::sections/annex-a.adoc[]
 
-include::sections/annex-n.adoc[]
+include::sections/annex-b.adoc[]
 
 ////
 Revision History should be the last annex before the Bibliography

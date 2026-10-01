@@ -31,7 +31,7 @@ Attention is drawn to the possibility that some of the elements of this document
 [abstract]
 == Abstract
 
-This document defines Requirements, Recommendations and Permissions pertaining to meteorological and oceanographic data visualization using OGC API - Maps - Part 1 : Core.  Specifically, this document further clarifies and restricts the use of OGC API - Maps - Part 1: Core for deeper interoperability among meteorological and oceanographic domains, and consistency for non-experts in other communities.
+This document defines Requirements, Recommendations and Permissions pertaining to meteorological and oceanographic data visualization using OGC APIs.  Specifically, this document further clarifies and restricts the use of OGC APIs with common domain conventions in support of deeper interoperability in meteorology and oceanography, as well as consistency for non-experts in other communities.
 
 
 == Preface

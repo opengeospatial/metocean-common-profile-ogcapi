@@ -1,0 +1,13 @@
+[conformance_class]
+====
+[%metadata]
+identifier:: http://www.opengis.net/profile/metocean-common-ogcapi/1.0/conf/collections
+target:: http://www.opengis.net/profile/metocean-common-ogcapi/1.0/req/collections
+classification:: Target Type:Web API
+abstract-test:: /conf/collections/identifier
+abstract-test:: /conf/collections/title
+abstract-test:: /conf/collections/license
+abstract-test:: /conf/collections/spatial-extent
+abstract-test:: /conf/collections/temporal-extent
+abstract-test:: /conf/collections/vertical-extent
+====

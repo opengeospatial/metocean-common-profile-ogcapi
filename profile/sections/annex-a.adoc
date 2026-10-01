@@ -1,9 +1,14 @@
-[appendix]
+[appendix,obligation="normative"]
 == Conformance Class Abstract Test Suite (Normative)
 
-[NOTE]
-Ensure that there is a conformance class for each requirements class and a test for each requirement (identified by requirement name and number)
+=== Conformance Class OpenAPI
 
-=== Conformance Class A
+include::../abstract_tests/ATS_class_openapi.adoc[]
 
-include::../abstract_tests/ATS_class_example1.adoc[]
+=== Conformance Class Collections
+
+include::../abstract_tests/ATS_class_collections.adoc[]
+
+=== Conformance Class Collection Parameters
+
+include::../abstract_tests/ATS_class_collection-parameters.adoc[]

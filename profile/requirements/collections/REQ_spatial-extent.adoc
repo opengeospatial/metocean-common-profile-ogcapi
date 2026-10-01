@@ -1,0 +1,9 @@
+[[req_collections_spatial-extent]]
+[requirement]
+====
+[%metadata]
+identifier:: /req/collections/spatial-extent
+part:: The value of `extent.spatial.crs` SHALL be `OGC:CRS84`.
+part:: The value of `crs` SHALL include the element `OGC:CRS84`.
+part:: If `crs_details` is specified for a `data_queries` object, the `crs_details` array SHALL include an object whose `crs` value is `OGC:CRS84`.
+====

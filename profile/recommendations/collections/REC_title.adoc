@@ -1,0 +1,9 @@
+[[rec_collections_title]]
+[recommendation]
+====
+[%metadata]
+identifier:: /rec/collections/title
+part:: A title SHOULD be written in English.
+part:: A title SHOULD have the most important information first, guarding against truncated presentation of the value.
+part:: A title SHOULD describe the collection in a way understandable also for non-experts. Usually mention both topic/domain and geographical area.
+====

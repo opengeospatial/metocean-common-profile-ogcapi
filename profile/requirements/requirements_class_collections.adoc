@@ -1,0 +1,16 @@
+[[rc_collections]]
+
+[requirements_class]
+.Requirements Class 'Collections'
+====
+[%metadata]
+identifier:: http://www.opengis.net/profile/metocean-common-ogcapi/1.0/req/collections
+subject:: Web API
+requirement:: /req/collections/granularity
+requirement:: /req/collections/identifier
+requirement:: /req/collections/title
+requirement:: /req/collections/license
+requirement:: /req/collections/spatial-extent
+requirement:: /req/collections/temporal-extent
+requirement:: /req/collections/vertical-extent
+====

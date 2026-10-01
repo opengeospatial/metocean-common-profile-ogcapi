@@ -1,0 +1,15 @@
+[[conf_collections_temporal-extent]]
+[conformance_test]
+====
+[%metadata]
+identifier:: /conf/collections/temporal-extent
+target:: /req/collections/temporal-extent
+test-purpose:: Validate that a MetOcean EDR Profile API provides temporal extent in the correct TRS.
+test-method::
++
+--
+1. Issue an HTTP GET request to path ``/collections``
+2. Check that the value of the returned HTTP status header is 200
+3. In the response document, for each object in the ``collections`` array, check that the ``extent.temporal.trs`` property is set to ``Gregorian``
+--
+====

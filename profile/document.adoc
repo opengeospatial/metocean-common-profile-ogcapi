@@ -43,7 +43,9 @@ include::sections/clause_6_informative_text.adoc[]
 
 include::sections/clause_7_openapi.adoc[]
 
-include::sections/clause_8_media_types.adoc[]
+include::sections/clause_8_collections.adoc[]
+
+include::sections/clause_9_media_types.adoc[]
 
 ////
 add or remove annexes after "A" as necessary

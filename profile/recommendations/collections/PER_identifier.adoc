@@ -1,0 +1,7 @@
+[[per_collections_identifier]]
+[permission]
+====
+[%metadata]
+identifier:: /per/collections/identifier
+part:: The identifier string MAY include a postfix to the values listed above.
+====

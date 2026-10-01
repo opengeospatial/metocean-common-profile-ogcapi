@@ -22,7 +22,7 @@ A computed simulation used to forecast future weather.
 
 A given timestep, at the granularity of one hour, within a model run.
 
-== Abbreviated terms
+=== Abbreviated terms
 
 API::
   Application Programming Interface

@@ -4,3 +4,7 @@
 === Conformance Class OpenAPI
 
 include::../abstract_tests/ATS_class_openapi.adoc[]
+
+=== Conformance Class Collections
+
+include::../abstract_tests/ATS_class_collections.adoc[]

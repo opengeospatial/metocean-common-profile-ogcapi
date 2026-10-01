@@ -1,0 +1,7 @@
+[[rec_collections_spatial-extent]]
+[recommendation]
+====
+[%metadata]
+identifier:: /rec/collections/spatial-extent
+part:: If a collection supports more CRSs than ``OGC:CRS84``, these values SHOULD be presented on the syntax ``EPSG:<code>`` in ``crs`` and ``data_queries.*.crs_details.crs`` if an EPSG code is available.
+====

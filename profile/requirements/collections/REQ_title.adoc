@@ -1,0 +1,8 @@
+[[req_collections_title]]
+[requirement]
+====
+[%metadata]
+identifier:: /req/collections/title
+part:: A title SHALL be set for all collections.
+part:: A title SHALL NOT have more than 50 characters.
+====

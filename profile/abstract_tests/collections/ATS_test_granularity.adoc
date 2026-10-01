@@ -1,0 +1,16 @@
+[[conf_collections_granularity]]
+[conformance_test]
+====
+[%metadata]
+identifier:: /conf/collections/granularity
+target:: /req/collections/granularity
+test-purpose:: Validate that a collection has implemented the mandatory granularity for NWP
+test-method::
++
+--
+1. Issue an HTTP GET request to path ``/collections``
+2. Check that the value of the returned HTTP status header is 200
+3. For matching collections, issue an HTTP GET request to path ``/collections/{collectionId}/instances``
+4. For matching instances, ensure that the instance identifier (``id``) is an RFC3339 datestamp.
+--
+====

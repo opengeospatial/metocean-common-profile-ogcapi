@@ -6,6 +6,7 @@
 [%metadata]
 identifier:: http://www.opengis.net/profile/metocean-common-ogcapi/1.0/req/collections
 subject:: Web API
+requirement:: /req/collections/granularity
 requirement:: /req/collections/identifier
 requirement:: /req/collections/title
 requirement:: /req/collections/license

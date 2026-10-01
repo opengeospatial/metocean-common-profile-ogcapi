@@ -8,3 +8,7 @@ include::../abstract_tests/ATS_class_openapi.adoc[]
 === Conformance Class Collections
 
 include::../abstract_tests/ATS_class_collections.adoc[]
+
+=== Conformance Class Collection Parameters
+
+include::../abstract_tests/ATS_class_collection-parameters.adoc[]

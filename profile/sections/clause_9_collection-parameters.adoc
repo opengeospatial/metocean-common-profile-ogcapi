@@ -1,0 +1,11 @@
+== Collection Parameters
+
+=== Requirement Class "Collection Parameters"
+
+TODO
+
+include::../requirements/requirements_class_collection-parameters.adoc[]
+
+==== Parameter names
+
+include::../requirements/collection-parameters/REQ_names.adoc[]

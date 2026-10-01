@@ -6,6 +6,10 @@ TODO
 
 include::../requirements/requirements_class_collections.adoc[]
 
+==== Collection granularity
+
+include::../requirements/collections/REQ_granularity.adoc[]
+
 ==== Collection identifier
 
 include::../requirements/collections/REQ_identifier.adoc[]

@@ -1,0 +1,7 @@
+[[req_collections_granularity]]
+[requirement]
+====
+[%metadata]
+identifier:: /req/collections/granularity
+part:: For NWP, a collection (``/collections/{collectionId}``) SHALL represent and describe one model at one vertical level.
+====

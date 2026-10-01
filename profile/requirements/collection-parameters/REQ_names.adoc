@@ -1,0 +1,18 @@
+[[req_collection-parameters_names]]
+[requirement]
+====
+[%metadata]
+identifier:: /req/collection-parameters/names
+part:: The keys in a collection's ``parameter_names`` and ``id`` in the parameter object SHALL NOT be used to convey structured metadata
+part:: A parameter object SHALL specify the following fields: ``label``, ``description``, ``unit``
+part:: label SHALL NOT have more than 50 characters
+part:: label SHALL be written in English
+part:: unit SHALL use QUDT as vocabulary, and ``unit.symbol.type`` SHALL be on the form ``https://qudt.org/vocab/unit/<unit>`` and ``unit.symbol.value`` SHALL be set to the value of ``qudt:symbol`` for that unit
+part:: ``observedProperty`` SHALL use the CF-convention if a suitable value is available and set ``observedProperty.id`` to value ``https://vocab.nerc.ac.uk/standard_name/<standard_name>``.  Else, use ``observedProperty.description`` to describe it
+part:: For insitu observations, each object in ``parameter_names`` SHALL specify a ``property metocean:standard_name`` with value set to one of the values listed in values array for custom dimension with ``id`` with value ``standard_names``.
+part:: For insitu observations, each object in ``parameter_names`` SHALL specify a property ``metocean:level`` with value set to one of the values listed in values array for custom dimension with ``id`` with value ``levels``.
+part:: For insitu observations, each object in ``parameter_names`` SHALL specify ``measurementType``.
+part:: For NWP, Global Deterministic NWP parameters listed in APPENDIX 2.2.1. of the https://library.wmo.int/viewer/35703[Manual on the WMO Integrated Processing and Prediction System (WMO-No. 485)] (WIPPS Manual) SHALL be provided by the server using ECMWF Short Names as described in <<appendix-b>>.
+part:: For NWP, parameter names as described in <<appendix-b>> SHALL be provided in a parameter name description using the description property.
+part:: For NWP, ECMWF short names as described in <<appendix-b>> SHALL be provided in a parameter name description using the id property.
+====

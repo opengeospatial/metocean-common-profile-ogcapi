@@ -1,0 +1,10 @@
+[[rc_datasets-insitu-observations]]
+
+[requirements_class]
+.Requirements Class 'Datasets - Insitu Observations'
+====
+[%metadata]
+identifier:: http://www.opengis.net/profile/metocean-common-ogcapi/1.0/req/datasets-insitu-observations
+subject:: Web API
+requirement:: /req/datasets-insitu-observations/parameter-names
+====

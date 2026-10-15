@@ -1,9 +1,9 @@
-[[conf_collections_granularity]]
+[[conf_datasets-numerical-weather-prediction_granularity]]
 [conformance_test]
 ====
 [%metadata]
-identifier:: /conf/collections/granularity
-target:: /req/collections/granularity
+identifier:: /conf/datasets-numerical-weather-prediction/granularity
+target:: /req/datasets-numerical-weather-prediction/granularity
 test-purpose:: Validate that a collection has implemented the mandatory granularity for NWP
 test-method::
 +

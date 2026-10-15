@@ -9,5 +9,4 @@ abstract-test:: /conf/collections/title
 abstract-test:: /conf/collections/license
 abstract-test:: /conf/collections/spatial-extent
 abstract-test:: /conf/collections/temporal-extent
-abstract-test:: /conf/collections/vertical-extent
 ====

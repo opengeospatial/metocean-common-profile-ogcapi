@@ -47,7 +47,11 @@ include::sections/clause_8_collections.adoc[]
 
 include::sections/clause_9_collection-parameters.adoc[]
 
-include::sections/clause_10_media_types.adoc[]
+include::sections/clause_10_datasets-insitu-observations.adoc[]
+
+include::sections/clause_11_datasets-numerical-weather-prediction.adoc[]
+
+include::sections/clause_12_media_types.adoc[]
 
 ////
 add or remove annexes after "A" as necessary

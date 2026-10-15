@@ -7,6 +7,8 @@ Requirements for the following standardization target types are considered:
 * OpenAPI
 * Collections
 * Collection Parameters
+* Data types - Insitu Observations 
+* Data types - Numerical Weather Prediction
 
 In order to conform to this Profile, a software implementation shall choose to implement:
 

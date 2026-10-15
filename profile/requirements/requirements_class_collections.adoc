@@ -12,5 +12,4 @@ requirement:: /req/collections/title
 requirement:: /req/collections/license
 requirement:: /req/collections/spatial-extent
 requirement:: /req/collections/temporal-extent
-requirement:: /req/collections/vertical-extent
 ====

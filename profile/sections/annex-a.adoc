@@ -12,3 +12,11 @@ include::../abstract_tests/ATS_class_collections.adoc[]
 === Conformance Class Collection Parameters
 
 include::../abstract_tests/ATS_class_collection-parameters.adoc[]
+
+=== Conformance Class Datasets - Insitu Observations
+
+include::../abstract_tests/ATS_class_datasets-insitu-observations.adoc[]
+
+=== Conformance Class Datasets - Numerical Weather Prediction
+
+include::../abstract_tests/ATS_class_datasets-numerical-weather-prediction.adoc[]

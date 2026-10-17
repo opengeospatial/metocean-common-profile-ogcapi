@@ -1,0 +1,16 @@
+[[conf_collections_title]]
+[conformance_test]
+====
+[%metadata]
+identifier:: /conf/collections/title
+target:: /req/collections/title
+test-purpose:: Validate that a MetOcean EDR Profile API provides a valid collection title
+test-method::
++
+--
+1. Issue an HTTP GET request to path ``/collections``
+2. Check that the value of the returned HTTP status header is 200
+3. In the ``collections`` array, check that the ``title`` property is present for all array elements
+4. For each ``title`` value, check that the value is less than or equal to 50 characters
+--
+====

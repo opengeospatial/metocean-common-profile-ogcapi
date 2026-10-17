@@ -1,0 +1,18 @@
+[[conf_collection-parameters_names]]
+[conformance_test]
+====
+[%metadata]
+identifier:: /conf/collection-parameters/names
+target:: /req/collection-parameters/names
+test-purpose:: Validate that a MetOcean EDR Profile API provides a valid collection title
+test-method::
++
+--
+1. Issue an HTTP GET request to path ``/collections``.
+2. Check that the value of the returned HTTP status header is 200.
+3. In the response document, for each object in the ``collections`` array, check that each object in the ``parameter_names`` array has the properties ``label``, ``unit`` and ``description``.
+4. The value of a ``label`` property in a ``parameter`` object is less than or equal to 50 characters.
+5. The value of ``unit.symbol.type`` in a ``parameter`` object is a url on the form ``https://qudt.org/vocab/unit/{unit}``.
+6. The value of ``unit.symbol.value`` in a ``parameter`` object is specified.
+--
+====

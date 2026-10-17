@@ -1,0 +1,11 @@
+== OpenAPI 
+
+=== Requirement Class "OpenAPI"
+
+An OpenAPI specification provides a machine-readable description of the API interface.
+
+include::../requirements/requirements_class_openapi.adoc[]
+
+==== Definition
+
+include::../requirements/openapi/REQ_definition.adoc[]

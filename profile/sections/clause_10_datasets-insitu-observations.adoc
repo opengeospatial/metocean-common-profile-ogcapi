@@ -1,0 +1,11 @@
+== Datasets - Insitu Observations
+
+=== Requirement Class "Datasets - Insitu Observations"
+
+TODO
+
+include::../requirements/requirements_class_datasets-insitu-observations.adoc[]
+
+==== Parameter names
+
+include::../requirements/datasets-insitu-observations/REQ_parameter-names.adoc[]

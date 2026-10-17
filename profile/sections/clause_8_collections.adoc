@@ -1,0 +1,35 @@
+== Collections
+
+=== Requirement Class "Collections"
+
+TODO
+
+include::../requirements/requirements_class_collections.adoc[]
+
+==== Collection identifier
+
+include::../requirements/collections/REQ_identifier.adoc[]
+include::../recommendations/collections/REC_identifier.adoc[]
+include::../recommendations/collections/PER_identifier.adoc[]
+
+==== Collection title
+
+include::../requirements/collections/REQ_title.adoc[]
+include::../recommendations/collections/REC_title.adoc[]
+
+==== Collection license
+
+include::../requirements/collections/REQ_license.adoc[]
+
+==== Collection spatial extent
+
+include::../requirements/collections/REQ_spatial-extent.adoc[]
+include::../recommendations/collections/REC_spatial-extent.adoc[]
+
+==== Collection temporal extent
+
+include::../requirements/collections/REQ_temporal-extent.adoc[]
+
+==== Collection vertical extent
+
+include::../recommendations/collections/REC_vertical-extent.adoc[]

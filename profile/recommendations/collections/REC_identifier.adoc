@@ -1,0 +1,7 @@
+[[rec_collections_identifier]]
+[recommendation]
+====
+[%metadata]
+identifier:: /rec/collections/identifier
+part:: A collection identifier SHOULD use the following list of values, each suitable for a specific data type: ``insitu-observations``, ``climate_data``, ``radar_observations``, ``weather_warnings``, ``weather_forecast``.
+====

@@ -1,0 +1,7 @@
+[[req_collections_identifier]]
+[requirement]
+====
+[%metadata]
+identifier:: /req/collections/identifier
+part:: A collection identifier SHALL NOT be used to convey structured metadata.
+====

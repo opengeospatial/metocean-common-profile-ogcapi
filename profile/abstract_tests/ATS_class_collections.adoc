@@ -10,3 +10,23 @@ abstract-test:: /conf/collections/license
 abstract-test:: /conf/collections/spatial-extent
 abstract-test:: /conf/collections/temporal-extent
 ====
+
+==== Identifier
+
+include::./collections/ATS_test_identifier.adoc[]
+
+==== Title
+
+include::./collections/ATS_test_title.adoc[]
+
+==== License
+
+include::./collections/ATS_test_license.adoc[]
+
+==== Spatial extent
+
+include::./collections/ATS_test_spatial-extent.adoc[]
+
+==== Temporal extent
+
+include::./collections/ATS_test_temporal-extent.adoc[]

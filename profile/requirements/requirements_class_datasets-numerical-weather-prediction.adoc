@@ -7,4 +7,5 @@
 identifier:: http://www.opengis.net/profile/metocean-common-ogcapi/1.0/req/datasets-numerical-weather-prediction
 subject:: Web API
 requirement:: /req/datasets-numerical-weather-prediction/granularity
+requirement:: /req/datasets-numerical-weather-prediction/parameter-names
 ====

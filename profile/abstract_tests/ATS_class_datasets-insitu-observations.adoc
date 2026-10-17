@@ -6,3 +6,7 @@ target:: http://www.opengis.net/profile/metocean-common-ogcapi/1.0/req/datasets-
 classification:: Target Type:Web API
 abstract-test:: /conf/datasets-insitu-observations/parameter-names
 ====
+
+==== Parameter names
+
+include::./datasets-insitu-observations/ATS_test_parameter-names.adoc[]

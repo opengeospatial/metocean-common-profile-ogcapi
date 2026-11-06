@@ -1,0 +1,7 @@
+[[req_collections_temporal-extent]]
+[requirement]
+====
+[%metadata]
+identifier:: /req/collections/temporal-extent
+part:: The value of ``extent.temporal.trs`` SHALL be ``Gregorian``.
+====

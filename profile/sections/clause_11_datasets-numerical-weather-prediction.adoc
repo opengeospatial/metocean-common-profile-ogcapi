@@ -1,0 +1,15 @@
+== Datasets - Numerical Weather Prediction
+
+=== Requirement Class "Datasets - Numerical Weather Prediction"
+
+TODO
+
+include::../requirements/requirements_class_datasets-numerical-weather-prediction.adoc[]
+
+==== Granularity
+
+include::../requirements/datasets-numerical-weather-prediction/REQ_granularity.adoc[]
+
+==== Parameter names
+
+include::../requirements/datasets-numerical-weather-prediction/REQ_parameter-names.adoc[]

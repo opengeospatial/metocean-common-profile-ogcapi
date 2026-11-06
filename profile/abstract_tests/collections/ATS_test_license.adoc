@@ -1,0 +1,17 @@
+[[conf_collections_license]]
+[conformance_test]
+====
+[%metadata]
+identifier:: /conf/collections/license
+target:: /req/collections/license
+test-purpose:: Validate that a MetOcean EDR Profile API provides a collection links array with a license link.
+test-method::
++
+--
+1. Issue an HTTP GET request to path ``/collections``
+2. Check that the value of the returned HTTP status header is 200
+3. In the ``links`` array, check that there exists one ``link`` object with ``rel`` set to ``license``
+4. Issue a HTTP GET request to the url in ``href`` for ``link`` with rel ``license``
+5. Check that the value of the returned HTTP status header is 200 and the HTTP response header ``Content-Type`` is ``text/html``
+--
+====

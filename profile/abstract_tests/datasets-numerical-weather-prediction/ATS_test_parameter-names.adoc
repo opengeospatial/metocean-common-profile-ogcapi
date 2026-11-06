@@ -1,0 +1,15 @@
+[[conf_datasets-numerical-weather-prediction_parameter-names]]
+[conformance_test]
+====
+[%metadata]
+identifier:: /conf/datasets-numerical-weather-prediction/parameter-names
+target:: /req/datasets-numerical-weather-prediction/parameter-names
+test-purpose:: Validate that a MetOcean EDR Profile API provides a valid collection title
+test-method::
++
+--
+1. Issue an HTTP GET request to path ``/collections``.
+2. Check that the value of the returned HTTP status header is 200.
+3. In the response document, for each object in the ``collections`` array prefixed by ``weather.prediction.``, check that objects in ``parameter_names`` with ids that implement shortnames using <<appendix-b>> use ``description`` to provide the associsted parameter name.
+--
+====

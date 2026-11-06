@@ -1,0 +1,12 @@
+[[req_collection-parameters_names]]
+[requirement]
+====
+[%metadata]
+identifier:: /req/collection-parameters/names
+part:: The keys in a collection's ``parameter_names`` and ``id`` in the parameter object SHALL NOT be used to convey structured metadata
+part:: A parameter object SHALL specify the following fields: ``label``, ``description``, ``unit``
+part:: label SHALL NOT have more than 50 characters
+part:: label SHALL be written in English
+part:: unit SHALL use QUDT as vocabulary, and ``unit.symbol.type`` SHALL be on the form ``https://qudt.org/vocab/unit/<unit>`` and ``unit.symbol.value`` SHALL be set to the value of ``qudt:symbol`` for that unit
+part:: ``observedProperty`` SHALL use the CF-convention if a suitable value is available and set ``observedProperty.id`` to value ``https://vocab.nerc.ac.uk/standard_name/<standard_name>``.  Else, use ``observedProperty.description`` to describe it
+====

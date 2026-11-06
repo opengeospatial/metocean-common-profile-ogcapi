@@ -1,0 +1,15 @@
+[[conf_datasets-insitu-observations_parameter-names]]
+[conformance_test]
+====
+[%metadata]
+identifier:: /conf/datasets-insitu-observations/parameter-names
+target:: /req/datasets-insitu-observations/parameter-names
+test-purpose:: Validate that a MetOcean EDR Profile API provides a valid collection title
+test-method::
++
+--
+1. Issue an HTTP GET request to path ``/collections``.
+2. Check that the value of the returned HTTP status header is 200.
+3. In the response document, for each object in the ``collections`` array prefixed by ``observations.in-situ.``, check that objects in ``parameter_names`` specify properties ``metocean:standard_name``, ``metocean:level``, and ``measurementType``.
+--
+====

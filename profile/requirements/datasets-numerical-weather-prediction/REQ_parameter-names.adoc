@@ -1,0 +1,9 @@
+[[req_datasets-numerical-weather-prediction_parameter-names]]
+[requirement]
+====
+[%metadata]
+identifier:: /req/datasets-numerical-weather-prediction/parameter-names
+part:: Global Deterministic NWP parameters listed in APPENDIX 2.2.1. of the https://library.wmo.int/viewer/35703[Manual on the WMO Integrated Processing and Prediction System (WMO-No. 485)] (WIPPS Manual) SHALL be provided by the server using ECMWF Short Names as described in <<appendix-b>>.
+part:: ECMWF short names as described in <<appendix-b>> SHALL be provided in a parameter name description using the id property.
+part:: Parameter names as described in <<appendix-b>> SHALL be provided in a parameter name description using the description property.
+====

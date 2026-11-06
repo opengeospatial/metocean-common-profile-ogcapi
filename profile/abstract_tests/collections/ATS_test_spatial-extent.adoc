@@ -1,0 +1,17 @@
+[[conf_collections_spatial-extent]]
+[conformance_test]
+====
+[%metadata]
+identifier:: /conf/collections/spatial-extent
+target:: /req/collections/spatial-extent
+test-purpose:: Validate that a MetOcean EDR Profile API provides spatial extent in the correct CRS.
+test-method::
++
+--
+1. Issue an HTTP GET request to path ``/collections``
+2. Check that the value of the returned HTTP status header is 200
+3. In the response document, for each object in the ``collections`` array, check that the ``extent.spatial.crs`` property is set to ``OGC:CRS84``
+4. In the ``collections`` array, check that the ``crs`` property is set to ``OGC:CRS84`` for each object
+5. For each object in ``collections`` array, for each object in the ``data_queries`` array, if ``crs_details`` is specified, check that one of the objects in the ``crs_details`` array has a ``crs`` property set to ``OGC:CRS84``
+--
+====

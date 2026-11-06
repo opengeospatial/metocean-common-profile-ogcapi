@@ -1,0 +1,17 @@
+[conformance_class]
+====
+[%metadata]
+identifier:: http://www.opengis.net/profile/metocean-common-ogcapi/1.0/conf/datasets-numerical-weather-prediction
+target:: http://www.opengis.net/profile/metocean-common-ogcapi/1.0/req/datasets-numerical-weather-prediction
+classification:: Target Type:Web API
+abstract-test:: /conf/datasets-numerical-weather-prediction/granularity
+abstract-test:: /conf/datasets-numerical-weather-prediction/parameter-names
+====
+
+==== Granularity
+
+include::./datasets-numerical-weather-prediction/ATS_test_granularity.adoc[]
+
+==== Parameter names
+
+include::./datasets-numerical-weather-prediction/ATS_test_parameter-names.adoc[]

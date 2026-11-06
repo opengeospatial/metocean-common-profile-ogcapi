@@ -1,0 +1,7 @@
+[[req_datasets-numerical-weather-prediction_granularity]]
+[requirement]
+====
+[%metadata]
+identifier:: /req/datasets-numerical-weather-prediction/granularity
+part:: A collection (``/collections/{collectionId}``) SHALL represent and describe one model at one vertical level type.
+====

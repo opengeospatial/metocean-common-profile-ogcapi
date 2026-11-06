@@ -1,0 +1,10 @@
+[[rc_openapi]]
+
+[requirements_class]
+.Requirements Class 'OpenAPI'
+====
+[%metadata]
+identifier:: http://www.opengis.net/profile/metocean-common-ogcapi/1.0/req/openapi
+subject:: Web API
+requirement:: /req/openapi/definition
+====

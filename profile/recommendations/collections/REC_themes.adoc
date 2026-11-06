@@ -1,0 +1,7 @@
+[[rec_collections_themes]]
+[recommendation]
+====
+[%metadata]
+identifier:: /rec/collections/themes
+part:: A themes/concept object SHOULD provide a ``url`` property for dereferencing the concept.
+====

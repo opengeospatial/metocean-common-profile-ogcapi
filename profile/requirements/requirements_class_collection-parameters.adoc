@@ -1,0 +1,10 @@
+[[rc_collection-parameters]]
+
+[requirements_class]
+.Requirements Class 'Collection Parameters'
+====
+[%metadata]
+identifier:: http://www.opengis.net/profile/metocean-common-ogcapi/1.0/req/collection-parameters
+subject:: Web API
+requirement:: /req/collection-parameters/names
+====

@@ -1,0 +1,19 @@
+[[conf_collections_themes]]
+[conformance_test]
+====
+[%metadata]
+identifier:: /conf/collections/themes
+target:: /req/collections/themes
+test-purpose:: Validate that a MetOcean EDR Profile API provides a valid collection themes object as per the WMO Codes Registry
+test-method::
++
+--
+1. Issue an HTTP GET request to path ``/collections``
+2. Check that the value of the returned HTTP status header is 200
+3. In the ``collections`` array, check that the ``themes`` object is present for all array elements
+4. For each ``themes`` object, check that the ``scheme`` is equal to ``https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline``
+5. For each ``themes.concepts`` array, check that the ``id`` exists, and construct a URL that combines the theme's ``scheme`` value and the ``id``
+6. Issue an HTTP GET request to the constructed URL in the previous step
+7. Check that the value of the returned HTTP status header is 200
+--
+====

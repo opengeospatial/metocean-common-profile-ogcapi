@@ -1,0 +1,7 @@
+[[req_collections_themes]]
+[requirement]
+====
+[%metadata]
+identifier:: /req/collections/themes
+part:: A collection SHALL provide a theme using the https://codes.wmo.int[WMO Codes Registry], with a ``scheme`` of ``https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline`` and a concept object whose ``id`` is relative to the scheme URI (i.e. ``weather/prediction/forecast/medium-range/deterministic/global``).
+====

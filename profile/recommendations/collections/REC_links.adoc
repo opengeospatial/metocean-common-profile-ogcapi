@@ -1,0 +1,7 @@
+[[rec_collections_links]]
+[recommendation]
+====
+[%metadata]
+identifier:: /rec/collections/links
+part:: If a collection's dataset is published to the WMO Information System (WIS2), a link to the dataset in any WIS2 Global Discovery Catalogue (GDC) SHOULD be be provided using ``rel=described`` and ``type=application/geo+json``.
+====

@@ -18,7 +18,7 @@ include::../recommendations/collections/REC_title.adoc[]
 ==== Collection themes
 
 include::../requirements/collections/REQ_themes.adoc[]
-include::../requirements/collections/REC_themes.adoc[]
+include::../recommendations/collections/REC_themes.adoc[]
 
 ==== Collection license
 

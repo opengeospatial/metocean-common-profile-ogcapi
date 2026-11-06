@@ -9,7 +9,6 @@ include::../requirements/requirements_class_collections.adoc[]
 ==== Collection identifier
 
 include::../requirements/collections/REQ_identifier.adoc[]
-include::../recommendations/collections/PER_identifier.adoc[]
 
 ==== Collection title
 
@@ -19,6 +18,7 @@ include::../recommendations/collections/REC_title.adoc[]
 ==== Collection themes
 
 include::../requirements/collections/REQ_themes.adoc[]
+include::../requirements/collections/REC_themes.adoc[]
 
 ==== Collection license
 

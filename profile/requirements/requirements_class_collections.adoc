@@ -8,6 +8,7 @@ identifier:: http://www.opengis.net/profile/metocean-common-ogcapi/1.0/req/colle
 subject:: Web API
 requirement:: /req/collections/identifier
 requirement:: /req/collections/title
+requirement:: /req/collections/themes
 requirement:: /req/collections/license
 requirement:: /req/collections/spatial-extent
 requirement:: /req/collections/temporal-extent

@@ -3,5 +3,5 @@
 ====
 [%metadata]
 identifier:: /rec/collections/themes
-part:: A themes/concept object SHOULD provide a ``url`` property for deferencing the concept.
+part:: A themes/concept object SHOULD provide a ``url`` property for dereferencing the concept.
 ====

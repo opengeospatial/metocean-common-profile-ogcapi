@@ -3,8 +3,11 @@
 
 The following normative documents contain provisions that, through reference in this text, constitute provisions of this document. For dated references, subsequent amendments to, or revisions of, any of these publications do not apply. For undated references, the latest edition of the normative document referred to applies.
 
+* [[[OGC19-072,OGC 19-072]]], _OGC API - Common - Part 1: Core_ (2023)
+* [[[OGC20-024,OGC 20-024]]], _OGC API - Common - Part 2: Geospatial Data_ (2025)
+* [[[OGC20-004r1,OGC 20-004r1]]], _OGC API - Records - Part 1: Core_ (2025)
 * [[[OGC20-058,OGC 20-058]]], _OGC API - Maps - Part 1: Core_ (2024)
-
-* [[[OGC19-086r6,OGC 19-086r6]]], _OGC API - Environmental Data Retrieval_ (2023)
-
+* [[[OGC19-086r9,OGC 19-086r9]]], _OGC API - Environmental Data Retrieval_ (2026)
 * [[[OGC12-111r1,OGC 12-111r1]]], _OGC Best Practice for using Web Map Services (WMS) with Time-Dependent or Elevation-Dependent Data_ (2014)
+* [[WMO-WTH]], WIS2 Topic Hierarchy (2025) footnote:[https://wmo-im.github.io/wis2-topic-hierarchy/standard/wis2-topic-hierarchy-STABLE.html]
+* [[openapi]] OpenAPI Specification 3.1.0 (2022) footnote:[https://github.com/OAI/OpenAPI-Specification/blob/3.1.0/versions/3.1.0.md]

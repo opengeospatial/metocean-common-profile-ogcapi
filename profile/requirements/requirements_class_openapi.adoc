@@ -6,5 +6,6 @@
 [%metadata]
 identifier:: http://www.opengis.net/profile/metocean-common-ogcapi/1.0/req/openapi
 subject:: Web API
+inherit:: https://www.opengis.net/spec/ogcapi-common-1/1.0/req/core
 requirement:: /req/openapi/definition
 ====

@@ -6,5 +6,7 @@
 [%metadata]
 identifier:: http://www.opengis.net/profile/metocean-common-ogcapi/1.0/req/datasets-insitu-observations
 subject:: Web API
+inherit:: <<rc_collections>>
+inherit:: <<rc_collection-parameters>>
 requirement:: /req/datasets-insitu-observations/parameter-names
 ====
